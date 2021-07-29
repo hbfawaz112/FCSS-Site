@@ -1,28 +1,16 @@
-import { Grid, Button, Container, Typography } from "@material-ui/core";
-import { ShoppingCart } from "@material-ui/icons";
-import { commerce } from "../../lib/commerce";
-import { useState, useEffect } from "react";
-import Spinner from "../Spinner";
-import { makeStyles } from '@material-ui/core/styles'
+import { Grid, Typography } from "@material-ui/core";
+
 import {
     Card,
     CardContent,
-    CardMedia ,
-    CardHeader
+   
 } from '@material-ui/core/'
 
 import "./style.css";
 
 
 const Services =() => {
-    const useStyles = makeStyles(theme => ({
-        root: {
-            flexGrow: 1,
-            padding: theme.spacing(2)
-        }
-    }))
-    const classes = useStyles()
-   
+  
   return (
       
     <div className="serv">
@@ -37,7 +25,7 @@ const Services =() => {
     >
         <Grid item xs={12} sm={6} md={3}>
                 <Card>
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkbPl6WboDjnlsqfc9qaT4w_rJ-p5J-TJrFg&usqp=CAU"
+                    <img alt="something" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkbPl6WboDjnlsqfc9qaT4w_rJ-p5J-TJrFg&usqp=CAU"
                                         height="120px" width="300px"
                     
                     />
@@ -50,7 +38,7 @@ const Services =() => {
              </Grid>
            <Grid item xs={12} sm={6} md={3}>
                 <Card>
-                    <img src="https://www.pngitem.com/pimgs/m/50-508434_security-camera-systems-video-camera-hd-png-download.png" 
+                    <img alt="something" src="https://scontent.fbey15-1.fna.fbcdn.net/v/t1.6435-9/222471040_2747924411998017_3512527789756200665_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=NR9PZzkd384AX_-Vo5K&_nc_ht=scontent.fbey15-1.fna&oh=858e00c2012ebbf313a8d3432ed338e6&oe=612697A8" 
                     height="120px" width="300px"
                     
                     />
@@ -64,7 +52,7 @@ const Services =() => {
 
         <Grid item xs={12} sm={6} md={3}>
                 <Card>
-                    <img src="https://virtuooza.com/wp-content/uploads/2020/01/maintenance.jpg" 
+                    <img alt="something" src="https://virtuooza.com/wp-content/uploads/2020/01/maintenance.jpg" 
                     height="120px" width="300px"
                     
                     />
@@ -77,7 +65,7 @@ const Services =() => {
              </Grid>
              <Grid item xs={12} sm={6} md={3}>
                 <Card>
-                    <img src="https://otl.du.edu/wp-content/uploads/2016/04/visual_multimedia_sm2.jpg" 
+                    <img alt="something" src="https://otl.du.edu/wp-content/uploads/2016/04/visual_multimedia_sm2.jpg" 
                     height="120px" width="300px"
                     
                     />

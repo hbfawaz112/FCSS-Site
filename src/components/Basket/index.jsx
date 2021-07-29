@@ -1,4 +1,4 @@
-import { Grid, Button, Container } from "@material-ui/core";
+import { Grid, Button, Container ,Typography} from "@material-ui/core";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import CustomCard from "../CustomCard";
@@ -27,10 +27,17 @@ const Basket = ({
   if (!basketData.line_items || !basketData.line_items.length) return loading();
   return (
     <Container id="basket">
+       <Typography align="center" className="title" variant="h4">
+            Your Basket
+            </Typography>
+            <br></br>
+      
       <Grid container justify="center" spacing={4}>
+      
         {basketData.line_items.map((item) => {
           return (
             <Grid key={item.id} item xs={12} sm={6} md={4}>
+             
               <CustomCard
                 basket
                 product={item}
@@ -60,6 +67,7 @@ const Basket = ({
           Checkout
         </Button>
       </div>
+      
     </Container>
   );
 };
