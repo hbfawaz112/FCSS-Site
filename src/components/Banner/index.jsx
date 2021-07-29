@@ -13,12 +13,7 @@ const Banner = () => {
             </Typography>
             <h2>Hardware & Software - Laptop & Desktop CCTV Security Systems بيع وتركيب جميع انواع اجهزة الكمبيوتر واللابتوب بيع وتركيب احدث كاميرات المراقبة
 </h2>
-            <Button className="shopping-button" href="/services">
-              Our Services
-            </Button>
-            &nbsp;
-            &nbsp;
-            &nbsp;
+            
             
             <Button className="shopping-button1" href="#products">
               Shopping

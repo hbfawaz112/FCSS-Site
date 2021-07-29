@@ -17,7 +17,7 @@ const App = () => {
   const [orderError, setOrderError] = useState("");
 
   const fetchProducts = async () => {
-    const response = await commerce.products.list();
+    const response = await commerce.products.list({});
     setProducts((response && response.data) || []);
   };
 
@@ -88,7 +88,12 @@ const App = () => {
         />
         <Switch>
           <Route exact path="/">
+            <div>
+            Helo
+            
             <Products products={products} addProduct={addProduct} />
+            
+            </div>
           </Route>
           <Route exact path="/basket">
             <Basket

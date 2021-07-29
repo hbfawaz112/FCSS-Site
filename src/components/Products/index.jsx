@@ -3,13 +3,14 @@ import Product from "../Product";
 import Spinner from "../Spinner";
 import Banner from "../Banner";
 import "./style.css";
-
+import Services from "../Services";
 const Products = ({ products, addProduct }) => {
   if (!products.length) return <Spinner />;
 
   return (
     <div>
       <Banner />
+      <Services/>
       <Container id="products">
         <Grid container spacing={4}>
           {products.map((product) => (

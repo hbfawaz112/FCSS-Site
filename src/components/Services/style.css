@@ -1,4 +1,18 @@
 .serv{
     margin-top: 100px;
-    margin-bottom: 180px;
+    margin-bottom: 100px;
 }
+.imgs{
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .imgs{
+        width: 100%;
+        height: 55vw;
+        
+    }
+  }
