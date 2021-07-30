@@ -9,7 +9,7 @@ const Checkout = () => {
       
     <div className="contact">
      
-      <img className="img" src={logo}/>
+      <img alt="logo" className="img" src={logo}/>
       <h2 align="center">Check Out Page</h2>
 
       <h2 align="center">Still Under Construction...

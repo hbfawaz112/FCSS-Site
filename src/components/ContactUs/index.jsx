@@ -1,6 +1,6 @@
-import { Container, Typography, Button, Grid } from "@material-ui/core";
+import { Container, Grid } from "@material-ui/core";
 import "./style.css";
-import { icon } from "@fortawesome/fontawesome-svg-core";
+
 import logo from "./ph.png";
 import logo1 from "./fb.png";
 import logo2 from "./ins.png";
@@ -28,7 +28,7 @@ const ContactUs = () => {
                    <i class="fas fa-phone-alt"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+961 03-442553
                    <br></br> 
                    <br></br> 
-                   <img src={logo} width="22px"/> &nbsp;&nbsp; +961 07-326376
+                   <img alt="logo" src={logo} width="22px"/> &nbsp;&nbsp; +961 07-326376
                    <br></br> 
                    <br></br> 
                    <i class="fas fa-envelope-square"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fawazpc@live.com
@@ -38,15 +38,15 @@ const ContactUs = () => {
                    
                 <div className="social">
                     <a href="https://www.facebook.com/FawazComputerCenter">
-                   <img src={logo1} width="22px"/> 
+                   <img alt="logo" src={logo1} width="22px"/> 
                    </a>
                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                    <a href="https://www.instagram.com/fcss.sarl/">
-                   <img src={logo2} width="22px"/> 
+                   <img alt="logo" src={logo2} width="22px"/> 
                    </a>
                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                   <a href="">
-                   <img src={logo3} width="22px"/> 
+                   <a href="https://twitter.com/">
+                   <img alt="logo" src={logo3} width="22px"/> 
                    </a>
                    </div>
         </Grid>
@@ -71,13 +71,14 @@ const ContactUs = () => {
             <br></br>
             <h4 align="center" >You Can Find Us On Google Maps!</h4>
             <br></br>
-        <div><iframe width="400px" height="300px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Tebnine+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
+        <div><iframe title="FCSS Location in maps" width="400px" height="300px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Tebnine+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
     
         </Grid>
       </Grid>
       </Container>
     </div>
-  );
+    
+  ); 
 };
 
 export default ContactUs;
