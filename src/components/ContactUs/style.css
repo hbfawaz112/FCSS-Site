@@ -1,0 +1,19 @@
+.title{
+    font-size: 30px;
+    text-align: center;
+}
+
+.contact{
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.form{
+    color:white;
+}
+.social{
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    
+}

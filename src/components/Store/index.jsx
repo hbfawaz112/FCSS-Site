@@ -11,7 +11,7 @@ const Store = ({ store, addProduct }) => {
     <div class="store">
       
       <a href="/" className="ll">Go Back</a>
-      <p className="title">    The items in Our Store
+      <p className="title">  Items in Our Store
       
       </p>    
       <Container id="products">

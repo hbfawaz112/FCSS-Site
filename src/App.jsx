@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { CssBaseline } from "@material-ui/core";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -8,6 +7,7 @@ import Footer from "./components/Footer";
 import Products from "./components/Products";
 import Basket from "./components/Basket";
 import Checkout from "./components/Checkout";
+
 import ProductView from "./components/ProductView";
 import Store from "./components/Store"
 import ContactUs from "./components/ContactUs";

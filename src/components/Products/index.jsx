@@ -10,7 +10,11 @@ const Products = ({ products, addProduct }) => {
   return (
     <div>
       <Banner />
+      <br></br><br></br>
+      
       <Services/>
+      <hr></hr>
+      <br></br>
       
       <p className="title">        Some Of The items in Our Store
       </p>    

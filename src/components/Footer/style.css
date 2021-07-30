@@ -10,3 +10,9 @@
   
 }
 
+.by{color:#ffd900;text-decoration:none;}
+.by:hover {text-decoration:underline;}
+
+@media only screen and (max-width: 600px) {
+  
+}

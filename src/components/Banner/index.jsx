@@ -1,5 +1,6 @@
 import { Container, Typography, Button, Grid } from "@material-ui/core";
-import logo from "./aa.jpg";
+import logo from "./a.png";
+
 import "./style.css";
 
 const Banner = () => {
@@ -11,9 +12,9 @@ const Banner = () => {
             <Typography className="title" variant="h2">
               Welcome to Fawaz Computer & Security Systems
             </Typography>
-            <h2>Hardware & Software - Laptop & Desktop CCTV Security Systems بيع وتركيب جميع انواع اجهزة الكمبيوتر واللابتوب بيع وتركيب احدث كاميرات المراقبة
-</h2>
-            
+            <h5>Hardware & Software - Laptop & Desktop CCTV Security Systems بيع وتركيب جميع انواع اجهزة الكمبيوتر واللابتوب بيع وتركيب احدث كاميرات المراقبة
+</h5>
+           <br></br> 
             
             <Button className="shopping-button1" href="#products">
               Shopping

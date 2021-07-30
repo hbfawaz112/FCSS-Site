@@ -7,7 +7,10 @@ const Footer = () => {
     <footer className="footer">
       <p>
       © {fullYear}  FCSS S.A.R.L.
-      </p>
+    
+     
+       Build By <a className="by" href="https://hbfawaz.netlify.app/">Hussein B. Fawaz</a>
+       </p>
     </footer>
   );
 };

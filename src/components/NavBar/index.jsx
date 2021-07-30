@@ -31,7 +31,9 @@ const NavBar = ({ basketItems, totalCost }) => {
                 alt="FCSS logo"
                 className="logo"
               />
+              
             </Typography>
+          
             {location.pathname === "/basket" ? (
               <div className="basket-wrapper">
                 <h2>
