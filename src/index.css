@@ -5,4 +5,5 @@ html {
 body {
   background-color: #000000 !important;
   color: #c9d1d9 !important;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
 }

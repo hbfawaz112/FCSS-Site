@@ -1,12 +1,14 @@
-.MuiContainer-root.product-view {
+.product-view {
     height: 80vh;
     display: flex;
     align-items: center;
-    margin: 150px 0 100px 0;
+    
+    margin-top: 120px;
   }
   
+
   .product-view .image-wrapper img {
-    width: 100%;
+    width: 80%;
   }
   
   .product-view .text {
@@ -54,9 +56,4 @@
     padding: 5px 15px;
   }
   
-  @media (min-width: 960px) {
-    .MuiContainer-root.product-view {
-      height: 88vh;
-      margin: 40px 0 0;
-    }
-  }
+  

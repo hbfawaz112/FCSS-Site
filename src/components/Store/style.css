@@ -1,0 +1,40 @@
+#products {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .ll{
+    background-color: rgb(255, 166, 0);
+    color: black;
+    text-decoration: none;
+    border: solid;
+    border-radius: 20px;
+    padding: 3px;
+    align-items: center;
+  }
+
+  .store{
+      margin-top: 100px;
+  }
+  
+  .divmany{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 60px;
+  }
+  .title{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 39px;
+  }
+  
+  
+  @media only screen and (max-width: 600px) {
+    .title{
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      font-size: 25px;
+    }
+  }

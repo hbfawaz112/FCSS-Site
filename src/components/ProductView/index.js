@@ -46,7 +46,7 @@ const ProductView = ({ addProduct }) => {
       
     <Container className="product-view">
         
-      <Grid container spacing={4}>
+      <Grid  container spacing={4}>
         <Grid item xs={12} md={8} className="image-wrapper">
           <img
             onLoad={() => {

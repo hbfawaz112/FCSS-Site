@@ -1,4 +1,4 @@
-import { Grid, Typography , Button  } from "@material-ui/core";
+import { Grid, Typography   } from "@material-ui/core";
 
 import {
     Card,
@@ -14,7 +14,7 @@ const Services =() => {
   return (
       
     <div className="serv">
-        <h1 align="center" >Our Services</h1>
+        <p className="title"> Our Services</p>
         <br></br>
     <Grid
         container
@@ -30,7 +30,7 @@ const Services =() => {
                     
                     />
                     <CardContent>
-                        <Typography variant="h5" gutterBottom>
+                        <Typography  className="ser" variant="h5" gutterBottom>
                         Western Union and OMT
                         </Typography>
                       
@@ -43,7 +43,7 @@ const Services =() => {
                     
                     />
                     <CardContent>
-                        <Typography variant="h5" gutterBottom>
+                        <Typography  className="ser" variant="h5" gutterBottom>
                             CCTV Security Systems
                         </Typography>
                     </CardContent>
@@ -56,7 +56,7 @@ const Services =() => {
                         width="50%" hight="30%"
                     />
                     <CardContent>
-                        <Typography variant="h5" gutterBottom>
+                        <Typography className="ser" variant="h5" gutterBottom>
                        Hardware And Software
                         </Typography>
                     </CardContent>
@@ -69,7 +69,7 @@ const Services =() => {
                     
                     />
                     <CardContent>
-                        <Typography variant="h5" gutterBottom>
+                        <Typography  className="ser" variant="h5" gutterBottom>
                        Multimedia Services
                         </Typography>
                     </CardContent>

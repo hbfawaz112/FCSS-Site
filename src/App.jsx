@@ -9,17 +9,26 @@ import Products from "./components/Products";
 import Basket from "./components/Basket";
 import Checkout from "./components/Checkout";
 import ProductView from "./components/ProductView";
-import Services from "./components/Services";
+import Store from "./components/Store"
+import ContactUs from "./components/ContactUs";
 const App = () => {
   const [products, setProducts] = useState([]);
+
+  const [store, setStore] = useState([]);
+  
   const [basketData, setBasketData] = useState({});
   const [orderInfo, setOrderInfo] = useState({});
   const [orderError, setOrderError] = useState("");
 
   const fetchProducts = async () => {
-    const response = await commerce.products.list({});
+    const response = await commerce.products.list({limit: 6});
     setProducts((response && response.data) || []);
   };
+  const fetchStore = async () => {
+    const response = await commerce.products.list({});
+    setStore((response && response.data) || []);
+  };
+  
 
   const fetchBasketData = async () => {
     const response = await commerce.cart.retrieve();
@@ -71,6 +80,7 @@ const App = () => {
 
   useEffect(() => {
     fetchProducts();
+    fetchStore();
     fetchBasketData();
   }, []);
 
@@ -89,9 +99,15 @@ const App = () => {
         <Switch>
           <Route exact path="/">
             <div>
-            Helo
             
             <Products products={products} addProduct={addProduct} />
+            
+            </div>
+          </Route>
+          <Route exact path="/store">
+            <div>
+            
+            <Store store={store} addProduct={addProduct} />
             
             </div>
           </Route>
@@ -114,8 +130,8 @@ const App = () => {
           <Route exact path="/product-view/:id">
             <ProductView addProduct={addProduct} />
           </Route>
-          <Route exact path="/services">
-            <Services/>
+          <Route exact path="/contactus">
+            <ContactUs/>
           </Route>
           
         </Switch>

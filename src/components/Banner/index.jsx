@@ -1,5 +1,5 @@
 import { Container, Typography, Button, Grid } from "@material-ui/core";
-import logo from "./i2.jpg";
+import logo from "./aa.jpg";
 import "./style.css";
 
 const Banner = () => {
@@ -18,6 +18,11 @@ const Banner = () => {
             <Button className="shopping-button1" href="#products">
               Shopping
             </Button>
+            
+            <Button className="shopping-button1" href="/contactus">
+              Contact Us
+            </Button>
+            
             
           </Grid>
           <Grid className="brand" item sm={6}>

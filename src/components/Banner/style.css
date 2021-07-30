@@ -41,6 +41,8 @@
 .banner a.shopping-button1 {
   color: #000000;
   background-color: #ffc506;
+
+  margin-left: 50px;
 }
 
 @media (max-width: 800px) {
@@ -55,6 +57,7 @@
   width: 50%;
   
   height: 30vh;
+  
   
 }
 }
