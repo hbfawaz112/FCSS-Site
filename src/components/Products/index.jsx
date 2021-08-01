@@ -2,6 +2,7 @@ import { Grid, Container , Typography  } from "@material-ui/core";
 import Product from "../Product";
 import Spinner from "../Spinner";
 import Banner from "../Banner";
+import Agency from "../Agency";
 import "./style.css";
 import Services from "../Services";
 const Products = ({ products, addProduct }) => {
@@ -13,6 +14,9 @@ const Products = ({ products, addProduct }) => {
       <br></br><br></br>
       
       <Services/>
+      <hr></hr>
+      <br></br>
+      <Agency/>
       <hr></hr>
       <br></br>
       
