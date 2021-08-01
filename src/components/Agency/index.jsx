@@ -11,7 +11,7 @@ import logo3 from "./wikele1.png";
 const Agency =() => {
   return (
     <div className="agency">
-        <p className="title"> Our Agencies</p>
+        <p className="title"> Our Partners</p>
         <br></br>
         <div className="gr">
           
