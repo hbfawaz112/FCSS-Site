@@ -1,12 +1,7 @@
 import React from 'react';
 
-import { Grid, Typography} from "@material-ui/core";
+import { Grid, Card} from "@material-ui/core";
 import "./style.css";
-import {
-  Card,
-  CardContent,
- 
-} from '@material-ui/core/'
 
 import logo1 from "./dahua.png";
 import logo2 from "./hikvision_0.png";
