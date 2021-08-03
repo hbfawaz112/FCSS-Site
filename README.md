@@ -15,6 +15,6 @@ Contain Ecommerce section with add to cart , check out , a contact page and a st
  Later we will use some functionality of firebase
 <br>
 ## Screenshot
-<img src="https://raw.githubusercontent.com/hbfawaz112/FCSS-Site/main/screenshots/fcss_site1.PNG" width="80%" hight="80%"/>
+<img src="https://raw.githubusercontent.com/hbfawaz112/FCSS-Site/main/screenshots/fcss_site1.PNG" width="100%" hight="100%"/>
 
 ## More work will be done later.
