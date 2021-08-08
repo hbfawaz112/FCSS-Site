@@ -14,7 +14,14 @@
 .custom-navbar .custom-title {
   display: flex;
 }
-
+.links{
+  margin: auto;
+}
+.links a{
+  margin-left: 13px;
+  font-size: 18px;
+  color:white;
+}
 .basket-wrapper .custom-basket {
   font-size: 45px;
   color: #f5d000;
