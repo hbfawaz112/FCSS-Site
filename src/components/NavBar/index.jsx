@@ -13,7 +13,7 @@ import "./style.css";
 
 const NavBar = ({ basketItems, totalCost }) => {
   const location = useLocation();
-//todo : add some links navigation later
+
   return (
     <>
       <AppBar position="fixed" className="custom-navbar">
@@ -41,8 +41,19 @@ const NavBar = ({ basketItems, totalCost }) => {
                 </h2>
               </div>
             ) : (
-              <div className="basket-wrapper">
               
+              
+
+              <div className="basket-wrapper">
+               
+               <div className="links">
+               <a href="">Shopping</a>
+
+               <a href="">Gallery</a>
+
+               <a href="">Contact Us</a>
+                </div>
+
                 <IconButton
                   component={Link}
                   to="/basket"
