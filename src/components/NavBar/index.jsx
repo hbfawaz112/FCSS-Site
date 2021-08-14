@@ -48,9 +48,6 @@ const NavBar = ({ basketItems, totalCost }) => {
                
                <div className="links">
                <a href="/">Shopping</a>
-
-               <a href="/">Gallery</a>
-
                <a href="/">Contact Us</a>
                 </div>
 
