@@ -15,15 +15,15 @@ const Banner = () => {
             <h5>Hardware & Software - Laptop & Desktop CCTV Security Systems بيع وتركيب جميع انواع اجهزة الكمبيوتر واللابتوب بيع وتركيب احدث كاميرات المراقبة
 </h5>
            <br></br> 
-            
-          <Button className="shopping-button1" href="#products">
+            <div className="btns">   
+            <Button className="shopping-button1" href="#products">
               Shopping
             </Button>
             
             <Button className="shopping-button1" href="/contactus">
               Contact Us
             </Button>
-          
+            </div>
             
           </Grid>
           <Grid className="brand" item sm={6}>
