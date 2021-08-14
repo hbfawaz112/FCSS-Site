@@ -16,6 +16,7 @@ const Banner = () => {
 </h5>
            <br></br> 
             
+{/*
             <Button className="shopping-button1" href="#products">
               Shopping
             </Button>
@@ -23,7 +24,7 @@ const Banner = () => {
             <Button className="shopping-button1" href="/contactus">
               Contact Us
             </Button>
-            
+       */}     
             
           </Grid>
           <Grid className="brand" item sm={6}>
