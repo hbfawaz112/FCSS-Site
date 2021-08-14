@@ -15,6 +15,10 @@
   
 }
 
+.btns{
+  text-align: center;
+  margin-right: 100px;
+}
 .banner > div > div {
   align-items: center;
 }
@@ -46,6 +50,10 @@
 }
 
 @media (max-width: 800px) {
+  .btns{
+    text-align: center;
+    margin-right: 50px;
+  }
   .banner .title {
     font-size: 35px;
   }
@@ -61,3 +69,4 @@
   
 }
 }
+
