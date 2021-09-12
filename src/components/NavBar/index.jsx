@@ -45,12 +45,12 @@ const NavBar = ({ basketItems, totalCost }) => {
               
 
               <div className="basket-wrapper">
-               
+              {/*
                <div className="links">
                <a href="/">Shopping</a>
                <a href="/">Contact Us</a>
                 </div>
-
+               */}
                 <IconButton
                   component={Link}
                   to="/basket"
