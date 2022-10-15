@@ -125,7 +125,7 @@ const Services =() => {
 
         <Grid item xs={12} sm={6} md={3}>
                 <Card>
-                    <img onClick={handleClickOpen2} className="imgs" alt="something" src="https://virtuooza.com/wp-content/uploads/2020/01/maintenance.jpg" 
+                    <img onClick={handleClickOpen2} className="imgs" alt="something" src="https://i.ibb.co/SXw43Pb/pngwing-com.png" 
                         width="50%" hight="30%"
                     />
                      <Dialog
